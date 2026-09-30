@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pastense — Clipboard history, one key away</title>
+<meta name="description" content="Pastense keeps everything you copy on your Mac and pastes it back with ⇧⌘V. Text, links, images and files. Free on the Mac App Store.">
+<link rel="icon" href="assets/icon-256.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  .hero { text-align: center; display: block; }
+  .hero img { width: 128px; height: 128px; border-radius: 28px; }
+  .hero h1 { font-size: 40px; margin: 14px 0 6px; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); font-size: 18px; margin: 0 0 22px; }
+  .cta { display: inline-flex; align-items: center; gap: 10px; background: var(--text); color: var(--bg); text-decoration: none;
+    padding: 12px 22px; border-radius: 12px; font-weight: 600; font-size: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 8px; }
+  .card { border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  .card h3 { margin: 0 0 4px; color: var(--text); font-size: 16px; }
+  .card p { margin: 0; color: var(--muted); font-size: 14.5px; }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } .hero h1 { font-size: 32px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <img src="assets/icon.png" alt="Pastense icon">
+    <h1>Pastense</h1>
+    <p class="tagline">Clipboard history for macOS. Press ⇧⌘V, hit a number, done.</p>
+    <!-- App Store Connect에서 앱을 만든 뒤 링크의 id를 채운다. -->
+    <a class="cta" href="https://apps.apple.com/app/pastense/id0000000000">Download on the Mac App Store</a>
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <div class="grid">
+      <div class="card"><h3>One shortcut</h3><p>⇧⌘V opens your recent clips over whatever you're doing. Number keys paste instantly.</p></div>
+      <div class="card"><h3>Preview before you paste</h3><p>Long text, images, links and files show a large preview on hover.</p></div>
+      <div class="card"><h3>Files and rich text</h3><p>Files copied in Finder paste as files. Links and formatting from the browser survive.</p></div>
+      <div class="card"><h3>Your layout</h3><p>Center, left, right or a strip along the top. Keep up to 100 clips.</p></div>
+      <div class="card"><h3>Private by design</h3><p>History stays on your Mac. No accounts, no analytics, nothing uploaded.</p></div>
+      <div class="card"><h3>English and Korean</h3><p>한국어와 영어를 지원합니다.</p></div>
+    </div>
+  </section>
+
+  <footer>© 2026 Cozycat Studio · <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a> · <a href="mailto:cozycat-studio@naver.com">cozycat-studio@naver.com</a></footer>
+</div>
+</body>
+</html>
